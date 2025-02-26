@@ -4,6 +4,8 @@
 
 This project showcases an ETL pipeline built using Apache Airflow to retrieve job listing data from the Adzuna API, transform it, and load it into a PostgreSQL database. The entire setup runs in Docker, ensuring a consistent and reproducible environment for extracting, transforming, and loading data.
 
+For more details, check https://medium.com/@kazarmax/extracting-and-processing-job-market-data-etl-with-apache-airflow-and-adzuna-api-d7feae752bf9
+
 
 ## How to Run the Pipeline
 
