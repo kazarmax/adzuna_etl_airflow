@@ -202,7 +202,7 @@ with DAG(
     dag_id = "adzuna_etl_pipeline",
     default_args = default_args,
     description="Download, transform and load data to Postgres",
-    schedule_interval= None #timedelta(days=1)
+    schedule_interval= None #timedelta(hours=1) to run every hour; timedelta(days=1) to run every 24 hours
 ) as dag:
     
     extract_raw_data_task = PythonOperator(
